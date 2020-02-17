@@ -1,3 +1,6 @@
+upstream: saltyshiomix/react-ssr
+this: patches created by brendo
+
 ## Overview
 
 - SSR (Server Side Rendering) as a view template engine
@@ -37,7 +40,7 @@ Then, populate files below inside your project:
 ```json
 {
   "presets": [
-    "@react-ssr/express/babel"
+    "@brendonjohn/react-ssr-express/babel"
   ]
 }
 ```
@@ -104,7 +107,7 @@ Then, populate files below inside your project:
 ```json
 {
   "presets": [
-    "@react-ssr/nestjs-express/babel"
+    "@brendonjohn/react-ssr-nestjs-express/babel"
   ]
 }
 ```
@@ -246,7 +249,7 @@ Then, populate files below inside your project:
 ```json
 {
   "presets": [
-    "@react-ssr/static/babel"
+    "@brendonjohn/react-ssr-static/babel"
   ]
 }
 ```
@@ -503,7 +506,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr/express/babel"
+    "@brendonjohn/react-ssr-express/babel"
   ],
   "plugins": [
     [
@@ -534,7 +537,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr/express/babel"
+    "@brendonjohn/react-ssr-express/babel"
   ],
   "plugins": [
     "emotion"
@@ -563,7 +566,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr/express/babel"
+    "@brendonjohn/react-ssr-express/babel"
   ],
   "plugins": [
     "styled-components"

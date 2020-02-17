@@ -32,7 +32,7 @@ Then, populate files below inside your project:
 ```json
 {
   "presets": [
-    "@react-ssr/static/babel"
+    "@brendonjohn/react-ssr-static/babel"
   ]
 }
 ```
@@ -312,7 +312,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr/static/babel"
+    "@brendonjohn/react-ssr-static/babel"
   ],
   "plugins": [
     [
@@ -343,7 +343,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr/static/babel"
+    "@brendonjohn/react-ssr-static/babel"
   ],
   "plugins": [
     "emotion"
@@ -372,7 +372,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr/static/babel"
+    "@brendonjohn/react-ssr-static/babel"
   ],
   "plugins": [
     "styled-components"

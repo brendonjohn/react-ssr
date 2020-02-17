@@ -48,7 +48,7 @@ Then, populate files below inside your project:
 ```json
 {
   "presets": [
-    "@react-ssr/express/babel"
+    "@brendonjohn/react-ssr-express/babel"
   ]
 }
 ```
@@ -115,7 +115,7 @@ Then, populate files below inside your project:
 ```json
 {
   "presets": [
-    "@react-ssr/nestjs-express/babel"
+    "@brendonjohn/react-ssr-nestjs-express/babel"
   ]
 }
 ```
@@ -257,7 +257,7 @@ Then, populate files below inside your project:
 ```json
 {
   "presets": [
-    "@react-ssr/static/babel"
+    "@brendonjohn/react-ssr-static/babel"
   ]
 }
 ```

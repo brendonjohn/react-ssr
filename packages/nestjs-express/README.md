@@ -39,7 +39,7 @@ Then, populate files below inside your project:
 ```json
 {
   "presets": [
-    "@react-ssr/nestjs-express/babel"
+    "@brendonjohn/react-ssr-nestjs-express/babel"
   ]
 }
 ```
@@ -379,7 +379,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr/express/babel"
+    "@brendonjohn/react-ssr-express/babel"
   ],
   "plugins": [
     [
@@ -410,7 +410,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr/express/babel"
+    "@brendonjohn/react-ssr-express/babel"
   ],
   "plugins": [
     "emotion"
@@ -439,7 +439,7 @@ And then, populate `.babelrc` in your project root:
 ```json
 {
   "presets": [
-    "@react-ssr/express/babel"
+    "@brendonjohn/react-ssr-express/babel"
   ],
   "plugins": [
     "styled-components"

@@ -1,5 +1,5 @@
 {
-  "name": "@react-ssr/static",
+  "name": "@brendonjohn/react-ssr-static",
   "version": "0.19.9",
   "description": "Yet another React static site generator",
   "repository": "git@github.com:saltyshiomix/react-ssr.git",
